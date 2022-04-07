@@ -68,7 +68,7 @@ gcc (GCC) 8.3.0
 # cd /home; gzip -d postgresql-12.5.tar.gz; 
 # tar xf postgresql-12.5.tar; cd /home/postgresql-12.5
 
-### Adjust Mafile to avoid Undefined symbol issue
+### Adjust Makefile to avoid Undefined symbol issue
 # cd /home/postgresql-12.5/src
 # sed -i 's/\$(stlib) -Wl,-bE:\$(exports_file)/\$^ -Wl,-bexpfull/g' Makefile.shlib
 # cd /home/postgresql-12.5/src 
