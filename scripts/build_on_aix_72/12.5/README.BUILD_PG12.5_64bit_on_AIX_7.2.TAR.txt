@@ -58,6 +58,12 @@ gcc (GCC) 8.3.0
                tcl tcl-devel krb5-devel krb5-libs  openldap openldap-devel \
                libxml2 libxml2-devel uuid uuid-devel libxslt libxslt-devel
 
+# bash; export PATH=/opt/freeware/bin:$PATH
+# export PATH=/opt/freeware/bin:$PATH
+# export LIBPATH=/opt/freeware/lib64:/usr/lib64:/opt/freeware/lib:/usr/lib:/lib
+# export PERL=/opt/freeware/bin/perl_64
+# export PYTHON=/opt/freeware/bin/python3_64
+
 ###Download PostgreSQL source from https://ftp.postgresql.org/pub/source/v12.5/postgresql-12.5.tar.gz
 # cd /home; gzip -d postgresql-12.5.tar.gz; 
 # tar xf postgresql-12.5.tar; cd /home/postgresql-12.5
@@ -73,12 +79,6 @@ gcc (GCC) 8.3.0
 ### Link as 64-bit, should use 'nm -X64 ...'
 # cd /home/postgresql-12.5/                                    
 # sed -i 's/\$NM/\$NM \-X64/g' src/backend/port/aix/mkldexport.sh
-
-# bash; export PATH=/opt/freeware/bin:$PATH
-# export PATH=/opt/freeware/bin:$PATH
-# export LIBPATH=/opt/freeware/lib64:/usr/lib64:/opt/freeware/lib:/usr/lib:/lib
-# export PERL=/opt/freeware/bin/perl_64
-# export PYTHON=/opt/freeware/bin/python3_64
 
 # cd /home/postgresql-12.5;
 OBJECT_MODE=64 \
