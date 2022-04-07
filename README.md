@@ -1,0 +1,2 @@
+# PostgreSQL_for_AIX
+PostgreSQL_for_AIX
