@@ -105,4 +105,4 @@ LDFLAGS_SL="-Wl,-G" \
 #gmake -j8 VERBOSE=1 install-world
 
 # cd /opt/postgres
-# tar zcf postgresql12-server-12.5-1PGDG.aix.7.2.tar.gz ./12.5
+# tar cf postgresql12-server-12.5-1PGDG.aix.7.2.tar ./12.5; gzip *.tar
