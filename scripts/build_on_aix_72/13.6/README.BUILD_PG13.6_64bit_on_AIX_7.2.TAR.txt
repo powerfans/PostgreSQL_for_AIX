@@ -54,7 +54,7 @@ gcc (GCC) 8.3.0
 
 ### Install dependencies
 # yum install bison flex gawk make gettext gettext-devel ncurses expat sqlite libffi  perl \
-               zlib zlib-devel realine readline-devel python3 python3-devel \
+               zlib zlib-devel readline readline-devel python3 python3-devel \
                tcl tcl-devel krb5-devel krb5-libs  openldap openldap-devel \
                libxml2 libxml2-devel uuid uuid-devel libxslt libxslt-devel
 
