@@ -89,7 +89,7 @@ CXX="g++ -g -maix64 -O2" \
 CPP="cpp -g -maix64 -O2" \
 CFLAGS="-I./src/include -I./src/interfaces/ecpg/include -I/opt/freeware/include -I/usr/include" \
 CPPFLAGS="-I./src/include -I./src/interfaces/ecpg/include -I/opt/freeware/include -I/usr/include" \
-LDFLAGS="-L/opt/freeware/lib64 -L/usr/lib64 -L/opt/freeware/lib -L/usr/lib -Wl,-blibpath:/opt/freeware/lib64:/opt/freeware/lib:/usr/lib:/lib -lintl -lpthreads" \
+LDFLAGS="-L/opt/freeware/lib64 -L/usr/lib64 -L/opt/freeware/lib -L/usr/lib -Wl,-bbigtoc -Wl,-blibpath:/opt/freeware/lib64:/opt/freeware/lib:/usr/lib:/lib -lintl -lpthreads" \
 LDFLAGS_EX="-Wl,-brtl" \
 LDFLAGS_SL="-Wl,-G" \
 ./configure \
